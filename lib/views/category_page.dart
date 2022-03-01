@@ -16,9 +16,10 @@ import 'home.dart';
 class CategoryPage extends StatelessWidget {
   CategoryPage({Key? key, required this.index}) : super(key: key);
 
-
   List category = [];
   int index;
+
+
 
   getTrendWalpappers() async {
     final url = Uri.parse(
